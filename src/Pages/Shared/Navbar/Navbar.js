@@ -5,8 +5,10 @@ import logo from '../../../assets/logo.png';
 const Navbar = () => {
 
     const menuItem = <>
-        <li className='font-semibold text-lg
-        '><Link to={'/'}>Home</Link></li>
+        <li className='font-semibold text-lg'>
+            <Link className='mr-5' to={'/'}>Home</Link>
+            <Link to={'/services'}>Services</Link>
+        </li>
     </>
 
     return (

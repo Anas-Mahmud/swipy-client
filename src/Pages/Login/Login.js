@@ -40,7 +40,7 @@ const Login = () => {
                 <p class="mx-auto mt-4 max-w-md text-center text-gray-500">
                     Enter your personal details and start <br /> journey with us
                 </p>
-                <form onSubmit={handleLogin} action="" class="mt-6 mb-0 space-y-4 rounded-lg p-8 shadow-2xl">
+                <form onSubmit={handleLogin} class="mt-6 mb-0 space-y-4 rounded-lg p-8 shadow-2xl">
                     <p class="text-lg font-medium">Login to your account</p>
                     <div>
                         <label for="email" class="text-sm font-medium">Email</label>
