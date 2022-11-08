@@ -1,0 +1,152 @@
+[
+    {
+        "service_id": "04",
+        "title": "Digital Marketing",
+        "img": "https://assets.materialup.com/uploads/3a085117-2b68-4082-ad6b-29a0f7bf4c23/preview.jpg",
+        "price": "250.00",
+        "description": "Digital marketing services provide businesses of all sizes with an opportunity to market their brand 24/7 at a low cost. From startups to medium-sized enterprises to multiple-location companies, a digital marketing company helps you expand your niche market reach to offer goods and services to your target customers, irrespective of time differences or location. Hiring an internet marketing agency is one of the best ways to reach your prospects while maintaining a robust relationship with your existing clients. As long as your business has a strong digital presence, your customers will always find you.",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        "service_id": "05",
+        "title": "Video Production",
+        "img": "https://thumbs.dreamstime.com/b/video-production-process-concept-movie-cinema-industry-creation-content-isolated-vector-illustration-cartoon-style-156002748.jpg",
+        "price": "20.00",
+        "description": "Our corporate video production service agency helps you create business videos for every stage of your sales funnel and corporate communications. More businesses are leveraging the power of video to create compelling content that drives traffic and boosts business growth. With everyone promising great results, finding the best video production company for your project is a challenge. At Creamy Animation we create high quality corporate videos for businesses around the world. We’ve worked with some of the largest corporations in the world, medium and small business owners.",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        "service_id": "01",
+        "title": "Branding Design",
+        "img": "https://img.freepik.com/free-vector/brand-concept-marketing-strategy-unique-design-company-product-brand-recognition-identity-building-isolated-flat-vector-illustration_613284-1082.jpg?w=2000",
+        "price": "200.00",
+        "description": "A brand needs to stand out from the crowd and a good design gets you started. We help our clients connect their brand identity with customers through printed and digital materials. Through our design services, we communicate what’s unique about your business, answer customer questions, and promote brand recognition.  With a diverse mix of design services to choose from, we’re ready to take on any project. Whether you need an infographic, digital or print materials, a mobile responsive website, or an entire re-branding, we have the tools to communicate your unique value.",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        "service_id": "03",
+        "title": "Web Development",
+        "img": "https://cdn.dribbble.com/users/4863866/screenshots/14210638/media/954ae8b7b623a79fdffc87394cea132e.png?compress=1&resize=400x300&vertical=top",
+        "price": "30.00",
+        "description": "In the age of interconnectivity, web development services are inevitably on the rise. Businesses of all shapes and sizes are putting their best efforts into maximizing the quality of their online presence, frequently by outsourcing IT services or augmenting their in-house IT staff with expert engineers. However, web development covers a massive range of solutions, most of which are customized to the client’s needs. Depending on the project’s requirements, they can include solutions like web application development, cybersecurity, testing, maintenance, consultancy, and even UI/UX design. That means that a senior web development team can completely reimagine your business and provide you a competitive edge in today’s business landscape.",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        "service_id": "02",
+        "title": "UX Design",
+        "img": "https://static.vecteezy.com/system/resources/thumbnails/004/580/539/small_2x/ui-ux-programmer-flat-design-illustration-vector.jpg",
+        "price": "150.00",
+        "description": "Delivering a complete digital experience is like glue binding together all touch points, connecting devices, and creating omni-channel experiences. Using best practices and  techniques, with a thorough understanding of all the latest technology tools, Appnovation's strategy and UX team can create solutions that are both intuitive to use, and tailored to match our clients’ specific user tasks and business goals. We always ensure that the end user is at the heart of our design considerations, offering  a range of design services from UX research to interaction design, as well as full usability audits. Our UX design approach is rooted in collaborative and iterative design, and our participatory mindset, coupled with our open communication approach is how we always work. We believe that the key to success rests upon data-driven user insights, clearly defined goals, and solid validation.",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        "service_id": "06",
+        "title": "eCommerce",
+        "img": "https://img.freepik.com/free-vector/ecommerce-web-page-concept-illustration_114360-8204.jpg?w=2000",
+        "price": "20.00",
+        "description": "Our e-commerce web designing service or ecommerce website development services will enable you to have a custom ecommerce website to win the ecommerce platform of the contemporary world. There are many ecommerce web development design templates available on the Internet for web developers. We bet that you can get started with your commerce site or ecommerce store within suitable ecommerce solutions in minutes with those without being any web developers or taking help from any ecommerce web design companies. It has been said that if you are not on the Internet, you do not exist. As the online marketplace continues to dominate the buying world, this adage becomes more applicable by the day. For retailers, this means that if you do not have an ecommerce site or custom ecommerce website yet, you can be restricting yourself from meeting full-service revenue targets and realizing your full potential. You can hire ecommerce web design companies for your ecommerce website development. We have unique and specialized ecommerce solutions and services as a custom ecommerce website company also a web design agency with a full-service guarantee.",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    }
+]
