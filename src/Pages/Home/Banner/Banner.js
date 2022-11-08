@@ -15,10 +15,10 @@ const Banner = () => {
                         We are a digital agency that focuses on solving your problems by making a product that will exceed your expectations so far.
                     </p>
                     <div className="mt-8 flex flex-wrap gap-4 text-center">
-                        <Link className="block w-full rounded bg-purple-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-purple-800 focus:outline-none focus:ring active:bg-purple-600 sm:w-auto">
+                        <Link to={'/services'} className="block w-full rounded bg-purple-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-purple-800 focus:outline-none focus:ring active:bg-purple-600 sm:w-auto">
                             Services
                         </Link>
-                        <Link className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-purple-600 shadow hover:text-purple-700 focus:outline-none focus:ring active:text-purple-600 sm:w-auto">
+                        <Link to={'/blog'} className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-purple-600 shadow hover:text-purple-700 focus:outline-none focus:ring active:text-purple-600 sm:w-auto">
                             Blog
                         </Link>
                     </div>
