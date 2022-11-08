@@ -8,7 +8,7 @@ const ServicesCard = ({ service }) => {
         <div className="w-full max-w-sm bg-white rounded-3xl shadow-2xl dark:bg-gray-800 dark:border-gray-700">
             <img className="p-8 rounded-t-lg h-72 w-full" src={img} alt="" />
             <div className="px-5 pb-5">
-                <h5 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white mb-5">{title}</h5>
+                <h5 className="text-3xl font-bold tracking-tight text-slate-700 dark:text-white mb-5">{title}</h5>
                 <>
                     {
                         description.length > 100 ?
