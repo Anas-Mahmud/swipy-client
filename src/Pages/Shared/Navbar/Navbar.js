@@ -21,9 +21,7 @@ const Navbar = () => {
                 user?.email ?
                     <Link to={'/myReviews'}>My Reviews</Link>
                     :
-                    <>
-
-                    </>
+                    <></>
             }
         </li>
     </>
