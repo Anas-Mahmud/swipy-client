@@ -15,7 +15,8 @@ const Navbar = () => {
     const menuItem = <>
         <li className='font-semibold text-lg'>
             <Link className='mr-5' to={'/'}>Home</Link>
-            <Link to={'/services'}>Services</Link>
+            <Link className='mr-5' to={'/services'}>Services</Link>
+            <Link to={'/myReviews'}>My Reviews</Link>
         </li>
     </>
 
