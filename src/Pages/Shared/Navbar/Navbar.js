@@ -16,7 +16,15 @@ const Navbar = () => {
         <li className='font-semibold text-lg'>
             <Link className='mr-5' to={'/'}>Home</Link>
             <Link className='mr-5' to={'/services'}>Services</Link>
-            <Link to={'/myReviews'}>My Reviews</Link>
+
+            {
+                user?.email ?
+                    <Link to={'/myReviews'}>My Reviews</Link>
+                    :
+                    <>
+
+                    </>
+            }
         </li>
     </>
 

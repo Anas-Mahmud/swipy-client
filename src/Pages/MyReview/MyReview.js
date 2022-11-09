@@ -7,15 +7,32 @@ const MyReview = () => {
     const [reviews, setReviews] = useState({});
 
     useEffect(() => {
-        fetch(`http://localhost:5000/myReview?email=${user.email}`)
+        fetch(`http://localhost:5000/myReview?email=${user?.email}`)
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [user?.email])
     console.log(reviews);
 
+    const handleDelete = id => {
+        const proceed = window.confirm("Are you sure, you want to delete this comment...??");
+        if (proceed) {
+            fetch(`http://localhost:5000/myReview/${id}`, {
+                method: 'DELETE'
+            })
+                .then(res => res.json())
+                .then(data => {
+                    console.log(data);
+                    if (data.deletedCount) {
+                        alert('Delete successfully');
+                        const remaining = reviews.filter(review => review._id !== id);
+                        setReviews(remaining);
+                    }
+                })
+        }
+    }
+
     return (
         <div>
-            <h2>you have {reviews.length} review</h2>
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-5 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">
@@ -28,6 +45,7 @@ const MyReview = () => {
                             reviews?.map(review => <MyReviewRow
                                 key={review._id}
                                 review={review}
+                                handleDelete={handleDelete}
                             ></MyReviewRow>)
                         }
                     </div>
