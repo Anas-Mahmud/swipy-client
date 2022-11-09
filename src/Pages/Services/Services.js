@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import ServicesCard from './ServicesCard';
 
 const Services = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('http://localhost:5000/allServices')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
@@ -24,9 +23,6 @@ const Services = () => {
                     ></ServicesCard>)
                 }
             </div>
-            <Link to={'/services'}>
-                <button type="button" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-20 py-4 text-center mr-2 mb-2">See All</button>
-            </Link>
         </div>
     );
 };
