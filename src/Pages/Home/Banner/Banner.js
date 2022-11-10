@@ -18,7 +18,7 @@ const Banner = () => {
                         <Link to={'/services'} className="block w-full rounded bg-purple-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-purple-800 focus:outline-none focus:ring active:bg-purple-600 sm:w-auto">
                             Services
                         </Link>
-                        <Link to={'/blog'} className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-purple-600 shadow hover:text-purple-700 focus:outline-none focus:ring active:text-purple-600 sm:w-auto">
+                        <Link to={'/blogs'} className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-purple-600 shadow hover:text-purple-700 focus:outline-none focus:ring active:text-purple-600 sm:w-auto">
                             Blog
                         </Link>
                     </div>
