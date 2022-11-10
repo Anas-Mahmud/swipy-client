@@ -41,7 +41,7 @@ const router = createBrowserRouter([
             {
                 path: '/myReviews',
                 element: <PrivateRoute><MyReview></MyReview></PrivateRoute>,
-                loader: ({ params }) => fetch(`https://swipy-server-anas-mahmud.vercel.app/myReviews/${params.id}`)
+                loader: ({ params }) => fetch(`https://swipy-server-anas-mahmud.vercel.app/myReview/${params.id}`)
             },
             {
                 path: '/updateReview/:id',
