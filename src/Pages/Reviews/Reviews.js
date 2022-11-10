@@ -18,7 +18,7 @@ const Reviews = () => {
     //     // if (!user?.email) {
     //     //     return
     //     // }
-    //     fetch(`http://localhost:5000/myReviews?email=${user?.email}`, {
+    //     fetch(`https://swipy-server-anas-mahmud.vercel.app/myReviews?email=${user?.email}`, {
     //         headers: {
     //             authorization: `Bearer ${localStorage.getItem('token')}`
     //         }

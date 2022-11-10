@@ -5,7 +5,7 @@ const AddService = () => {
     useTitle('Add Service')
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/allServices')
+        fetch('https://swipy-server-anas-mahmud.vercel.app/allServices')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
@@ -29,7 +29,7 @@ const AddService = () => {
         }
         console.log(service);
 
-        fetch('http://localhost:5000/addService', {
+        fetch('https://swipy-server-anas-mahmud.vercel.app/addService', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

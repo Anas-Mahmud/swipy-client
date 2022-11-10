@@ -35,7 +35,7 @@ const router = createBrowserRouter([
             {
                 path: '/reviews/:id',
                 element: <Reviews></Reviews>,
-                loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
+                loader: ({ params }) => fetch(`https://swipy-server-anas-mahmud.vercel.app/services/${params.id}`)
             },
             {
                 path: '/myReviews',
