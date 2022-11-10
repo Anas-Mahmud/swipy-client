@@ -1,6 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import useTitle from '../../hooks/useTitle';
 
 const AddService = () => {
+    useTitle('Add Service')
+    const [services, setServices] = useState([]);
+    useEffect(() => {
+        fetch('http://localhost:5000/allServices')
+            .then(res => res.json())
+            .then(data => setServices(data))
+    }, [])
+
+    const serviceId = services.map(service => service.service_id);
 
     const handleAddService = event => {
         event.preventDefault();
@@ -11,6 +21,7 @@ const AddService = () => {
         const details = form.details.value;
 
         const service = {
+            service_id: serviceId,
             title: name,
             img: photoUrl,
             price,

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AddReview = () => {
+const SingleServiceReview = () => {
     return (
         <div>
 
@@ -8,4 +8,4 @@ const AddReview = () => {
     );
 };
 
-export default AddReview;
+export default SingleServiceReview;

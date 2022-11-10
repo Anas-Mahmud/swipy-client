@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import ServicesCard from './ServicesCard';
+import useTitle from '../../hooks/useTitle';
 
 const Services = () => {
+    useTitle('service')
     const [services, setServices] = useState([]);
     useEffect(() => {
         fetch('http://localhost:5000/allServices')

@@ -1,13 +1,42 @@
-import React from 'react';
+// import React, { useContext, useEffect, useState } from 'react';
+// import { AuthContext } from '../../context/AuthProvider/AuthProvider';
 import { useLoaderData } from 'react-router-dom';
 import ServiceReview from '../ServicesReview/ServiceReview';
+import useTitle from '../../hooks/useTitle';
 
 const Reviews = () => {
+    useTitle('reviews')
+    // const { user } = useContext(AuthContext);
+    // const [reviews, setReviews] = useState({});
     const { _id, title, img, price, description } = useLoaderData();
     const serviceData = {
         serviceId: _id,
         serviceName: title
     }
+
+    // useEffect(() => {
+    //     // if (!user?.email) {
+    //     //     return
+    //     // }
+    //     fetch(`http://localhost:5000/myReviews?email=${user?.email}`, {
+    //         headers: {
+    //             authorization: `Bearer ${localStorage.getItem('token')}`
+    //         }
+    //     })
+    //         .then(res => {
+
+    //             return res.json()
+    //         })
+    //         .then(data => {
+    //             setReviews(data)
+    //         })
+    // }, [user?.email])
+    // console.log(reviews);
+
+    // const serviceReviewId = reviews.map(review => console.log(review.service))
+
+
+
     return (
         <div>
             <div className="flex flex-col items-center mb-10 bg-white rounded-2xl border shadow-md md:flex-row lg:max-w-full md:max-w-5xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
