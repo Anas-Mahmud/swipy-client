@@ -4,6 +4,7 @@ import ServicesCard from '../../Services/ServicesCard';
 import About from '../About/About';
 import Banner from '../Banner/Banner';
 import useTitle from '../../../hooks/useTitle';
+import CustomerReview from '../../CustomerReview/CustomerReview';
 
 const Home = () => {
     useTitle('home')
@@ -33,6 +34,7 @@ const Home = () => {
                 <button type="button" class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-20 py-4 text-center mr-2 mb-2">See All</button>
             </Link>
             <About></About>
+            <CustomerReview></CustomerReview>
         </div>
     );
 };

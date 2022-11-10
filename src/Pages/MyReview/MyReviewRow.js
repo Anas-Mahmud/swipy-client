@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const MyReviewRow = ({ review, handleDelete, handleUpdate }) => {
+const MyReviewRow = ({ review, handleDelete }) => {
     const { _id, serviceName, customer, photoUrl, reviewMessage } = review;
 
     return (
@@ -15,9 +16,11 @@ const MyReviewRow = ({ review, handleDelete, handleUpdate }) => {
                     <p className='text-lg'>{reviewMessage}</p>
                 </div>
                 <div className='flex flex-col gap-2'>
-                    <button onClick={() => handleUpdate(_id)} className="inline-block rounded-3xl bg-gray-600 px-2 py-2 text-sm font-medium text-white transition hover:-rotate-2 hover:scale-110 focus:outline-none focus:ring active:bg-indigo-500">
-                        Edit
-                    </button>
+                    <Link to={`/updateReview/${_id}`}>
+                        <button className="inline-block rounded-3xl bg-gray-600 px-2 py-2 text-sm font-medium text-white transition hover:-rotate-2 hover:scale-110 focus:outline-none focus:ring active:bg-indigo-500">
+                            Edit
+                        </button>
+                    </Link>
                     <button onClick={() => handleDelete(_id)} className="inline-block rounded-3xl bg-gray-600 px-2 py-2 text-sm font-medium text-white transition hover:-rotate-2 hover:scale-110 focus:outline-none focus:ring active:bg-indigo-500">
                         Delete
                     </button>

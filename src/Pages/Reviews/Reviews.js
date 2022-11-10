@@ -1,41 +1,14 @@
-// import React, { useContext, useEffect, useState } from 'react';
-// import { AuthContext } from '../../context/AuthProvider/AuthProvider';
 import { useLoaderData } from 'react-router-dom';
 import ServiceReview from '../ServicesReview/ServiceReview';
 import useTitle from '../../hooks/useTitle';
 
 const Reviews = () => {
     useTitle('reviews')
-    // const { user } = useContext(AuthContext);
-    // const [reviews, setReviews] = useState({});
     const { _id, title, img, price, description } = useLoaderData();
     const serviceData = {
         serviceId: _id,
         serviceName: title
     }
-
-    // useEffect(() => {
-    //     // if (!user?.email) {
-    //     //     return
-    //     // }
-    //     fetch(`https://swipy-server-anas-mahmud.vercel.app/myReviews?email=${user?.email}`, {
-    //         headers: {
-    //             authorization: `Bearer ${localStorage.getItem('token')}`
-    //         }
-    //     })
-    //         .then(res => {
-
-    //             return res.json()
-    //         })
-    //         .then(data => {
-    //             setReviews(data)
-    //         })
-    // }, [user?.email])
-    // console.log(reviews);
-
-    // const serviceReviewId = reviews.map(review => console.log(review.service))
-
-
 
     return (
         <div>

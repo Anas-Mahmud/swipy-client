@@ -9,6 +9,7 @@ import MyReview from "../../Pages/MyReview/MyReview";
 import Register from "../../Pages/Register/Register";
 import Reviews from "../../Pages/Reviews/Reviews";
 import Services from "../../Pages/Services/Services";
+import UpdateReview from "../../Pages/UpdateReview/UpdateReview";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
 
 const router = createBrowserRouter([
@@ -39,7 +40,12 @@ const router = createBrowserRouter([
             },
             {
                 path: '/myReviews',
-                element: <PrivateRoute><MyReview></MyReview></PrivateRoute>
+                element: <PrivateRoute><MyReview></MyReview></PrivateRoute>,
+                loader: ({ params }) => fetch(`https://swipy-server-anas-mahmud.vercel.app/myReviews/${params.id}`)
+            },
+            {
+                path: '/updateReview/:id',
+                element: <UpdateReview></UpdateReview>
             },
             {
                 path: '/blogs',

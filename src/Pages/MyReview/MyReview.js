@@ -49,28 +49,6 @@ const MyReview = () => {
         }
     }
 
-    const handleUpdate = id => {
-        fetch(`https://swipy-server-anas-mahmud.vercel.app/myReview/${id}`, {
-            method: 'PATCH',
-            headers: {
-                'content-type': 'application/json',
-                authorization: `Bearer ${localStorage.getItem('token')}`
-            },
-            body: JSON.stringify({})
-        })
-            .then(res => res.json())
-            .then(data => {
-                console.log(data);
-                if (data.modifiedCount) {
-                    const remaining = reviews.filter(review => review._id !== id)
-                    const updated = reviews.find(review => review._id === id)
-
-                    const newReviews = [...remaining, updated];
-                    setReviews(newReviews);
-                }
-            })
-    }
-
     return (
         <div>
             <section class="text-gray-600 body-font">
@@ -89,7 +67,6 @@ const MyReview = () => {
                                         key={review._id}
                                         review={review}
                                         handleDelete={handleDelete}
-                                        handleUpdate={handleUpdate}
                                     ></MyReviewRow>)
                                 }
                             </div>
