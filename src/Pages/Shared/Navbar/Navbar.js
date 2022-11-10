@@ -19,10 +19,14 @@ const Navbar = () => {
 
             {
                 user?.email ?
-                    <Link to={'/myReviews'}>My Reviews</Link>
+                    <>
+                        <Link className='mr-5' to={'/addService'}>Add Service</Link>
+                        <Link className='mr-5' to={'/myReviews'}>My Reviews</Link>
+                    </>
                     :
                     <></>
             }
+            <Link className='mr-5' to={'/blogs'}>Blogs</Link>
         </li>
     </>
 

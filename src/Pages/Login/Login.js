@@ -1,10 +1,14 @@
 import { GoogleAuthProvider } from 'firebase/auth';
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthProvider/AuthProvider';
 
 const Login = () => {
     const { signIn, providerLogin } = useContext(AuthContext);
+    const location = useLocation();
+    const navigate = useNavigate();
+
+    const from = location.state?.from?.pathname || '/';
 
     const googleProvider = new GoogleAuthProvider();
 
@@ -17,9 +21,27 @@ const Login = () => {
         signIn(email, password)
             .then(result => {
                 const user = result.user;
-                console.log(user);
+
+                const currentUser = {
+                    email: user.email
+                }
+
+                // get jwt token
+                fetch('http://localhost:5000/jwt', {
+                    method: 'POST',
+                    headers: {
+                        'content-type': 'application/json'
+                    },
+                    body: JSON.stringify(currentUser)
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        console.log(data);
+                        localStorage.setItem('token', data.token);
+                        navigate(from, { replace: true });
+                    })
             })
-            .then(err => console.error(err));
+            .catch(err => console.error(err));
     }
 
     const handleGoogleSignIn = () => {
@@ -27,6 +49,7 @@ const Login = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user);
+                navigate(from, { replace: true });
             })
             .catch(err => console.error(err));
     }
