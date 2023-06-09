@@ -6,6 +6,7 @@ import ServicesCard from "../../Services/ServicesCard";
 import About from "../About/About";
 import Banner from "../Banner/Banner";
 import Contact from "../Contact";
+import Pricing from "../Pricing";
 import Testimonial from "../Testimonial";
 
 const Home = () => {
@@ -41,6 +42,7 @@ const Home = () => {
       </Link>
       <About></About>
       <Testimonial />
+      <Pricing />
       <CustomerReview></CustomerReview>
       <Contact />
     </div>

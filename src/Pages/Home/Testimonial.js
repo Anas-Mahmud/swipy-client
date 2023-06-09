@@ -3,7 +3,7 @@ import React from "react";
 const Testimonial = () => {
   return (
     <section className="dark:bg-gray-800 dark:text-gray-100">
-      <div className="mx-36 px-6 py-12 -mb-20">
+      <div className="mx-36 px-6 py-12 ">
         <div className="grid items-center gap-4 xl:grid-cols-5">
           <div className="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
             <p className="text-lg font-semibold text-purple-600">
