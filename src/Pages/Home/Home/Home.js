@@ -6,6 +6,7 @@ import ServicesCard from "../../Services/ServicesCard";
 import About from "../About/About";
 import Banner from "../Banner/Banner";
 import Contact from "../Contact";
+import Testimonial from "../Testimonial";
 
 const Home = () => {
   useTitle("home");
@@ -39,6 +40,7 @@ const Home = () => {
         </button>
       </Link>
       <About></About>
+      <Testimonial />
       <CustomerReview></CustomerReview>
       <Contact />
     </div>

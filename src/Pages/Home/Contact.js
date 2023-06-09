@@ -50,7 +50,7 @@ const Contact = () => {
               name="user_name"
               type="text"
               placeholder="Your Name"
-              className="w-full p-3 rounded-full bg-gray-200 text-black"
+              className="w-full p-3 rounded-xl bg-gray-200 text-black"
               required
             />
           </div>
@@ -60,7 +60,7 @@ const Contact = () => {
               type="email"
               name="user_email"
               placeholder="Email"
-              className="w-full p-3 rounded-full bg-gray-200 text-black"
+              className="w-full p-3 rounded-xl bg-gray-200 text-black"
               data-temp-mail-org="1"
               required
             />
