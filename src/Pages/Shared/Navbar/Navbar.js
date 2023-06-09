@@ -37,6 +37,9 @@ const Navbar = () => {
         <Link className="mr-5" to={"/blogs"}>
           Blogs
         </Link>
+        <Link className="mr-5" to={"/about"}>
+          About US
+        </Link>
         <Link className="mr-5" to={"/contact"}>
           Contact
         </Link>

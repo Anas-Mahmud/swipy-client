@@ -3,7 +3,7 @@ import React from "react";
 const Pricing = () => {
   return (
     <section className="py-6 dark:bg-gray-800 dark:text-gray-100">
-      <div className="w-3/4 p-4 mx-auto sm:p-10">
+      <div className="w-5/6 p-4 mx-auto sm:p-10">
         <div className="mb-12 space-y-4 text-center">
           <h1 className="text-3xl font-semibold leading-tight">
             Pricing Plans That Fit Your Needs
@@ -173,7 +173,7 @@ const Pricing = () => {
                       d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
                     ></path>
                   </svg>
-                  <span>Access to premium features U</span>
+                  <span>Access to premium features</span>
                 </li>
                 <li className="flex justify-center space-x-2">
                   <svg
