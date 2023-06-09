@@ -7,7 +7,9 @@ import About from "../About/About";
 import Banner from "../Banner/Banner";
 import Contact from "../Contact";
 import FAQ from "../FAQ";
+import Feature from "../Feature";
 import Pricing from "../Pricing";
+import Star from "../Star";
 import Testimonial from "../Testimonial";
 
 const Home = () => {
@@ -22,7 +24,7 @@ const Home = () => {
   return (
     <div>
       <Banner></Banner>
-      <div className="my-16">
+      <div className="my-16 text-center">
         <p className="text-xl font-bold text-emerald-700">WHAT WE DO</p>
         <h2 className="text-5xl font-bold text-slate-800">
           Services we can <br /> help you.
@@ -34,17 +36,21 @@ const Home = () => {
         ))}
       </div>
       <Link to={"/services"}>
-        <button
-          type="button"
-          class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-20 py-4 text-center mr-2 mb-2"
-        >
-          See All
-        </button>
+        <div className="flex justify-center">
+          <button
+            type="button"
+            class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-20 py-4 text-center mb-2"
+          >
+            See All
+          </button>
+        </div>
       </Link>
+      <Feature />
       <About></About>
       <Testimonial />
       <Pricing />
       <FAQ />
+      <Star />
       <CustomerReview></CustomerReview>
       <Contact />
     </div>

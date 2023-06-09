@@ -35,7 +35,7 @@ const Contact = () => {
         Contact US
       </h1>
       <hr className="w-2/4 mx-auto my-5" />
-      <div className="grid max-w-screen-xl grid-cols-1 gap-20 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 text-gray-100">
+      <div className="grid max-w-screen-2xl grid-cols-1 gap-20 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 text-gray-100">
         <div className="flex flex-col justify-between">
           <img src={contact} alt="" className="pr-4 h-full" />
         </div>
